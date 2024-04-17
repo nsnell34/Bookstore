@@ -3,9 +3,9 @@
 class Database
 {
     private $user = "nicholas.s.snell@undcsmysql";
-    private $password = "nick5382";
+    private $password = "****";
     private $database = "nicholas_s_snell";
-    private $host = "undcsmysql.mysql.database.azure.com";
+    private $host = "localhost";
     public $conn;
 
     public function __construct()

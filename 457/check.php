@@ -18,7 +18,7 @@ set_time_limit(1800);
 //var_dump($_POST);
 
 if ($_POST['act'] == 'Display Source') {
-    if ($_SESSION['password'] == 'sioux1234') {
+    if ($_SESSION['password'] == 'password') {
 
         header("Content-type:text/plain; charset=UTF-8");
         if ($_POST['interface'] == '1') {

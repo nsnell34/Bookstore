@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Help</title>
+    <link href="help.css" rel="stylesheet">
+    <script src="setInputs.js"></script>
+</head>
+<body>
+<form method="post" action="return.php" class="form-button" onsubmit="return setHiddenInputs()">
+    <input type="submit" name="act" value="Back">
+    <input type="hidden" name="interface" value="2">
+
+    <input type="hidden" name="name" id="nameInput">
+    <input type="hidden" name="password" id="passwordInput">
+</form>
+
+<p></p>
+<p></p>
+<p> --HOW TO NAVIGATE ENTRY PAGE--</p>
+<p>
+    If admin user is entered, UPDATE is available to use. No other users may access.
+
+</p>
+
+<p> Any user may use LIST, which allows user to view books. Admin may view all users.</p>
+
+<p> Any user may SIGN OUT to return to login screen</p>
+
+<p> DISPLAY PASSWORD is the password required to view PHP source code.</p>
+
+<p> Press BACK to return to entry page.</p>
+
+</body>
+</html>

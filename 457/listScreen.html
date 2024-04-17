@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bookstore</title>
+    <link href="list.css" rel="stylesheet">
+    <script src="setInputs.js"></script>
+</head>
+</head>
+<body>
+
+<form method="post" action="ListPage.php" onsubmit="setHiddenInputs()">
+    <label>
+        <input type="radio" name="choice" value="Books" checked> Books
+    </label>
+    <label>
+        <input type="radio" name="choice" value="Users"> Users
+    </label>
+
+    <div class="keywords-container">
+        <label>Keywords:</label>
+        <input type="text" name="keywords" size="25">
+    </div>
+    <input type="submit" name="act" value="List">
+    <input type="submit" name="act" value="Back">
+    <input type="submit" name="act" value="Help">
+
+    <input type="hidden" name="name" id="nameInput">
+    <input type="hidden" name="password" id="passwordInput">
+
+</form>
+
+<form method="post" action="check.php">
+    <label for="displayPassword">Display Password:</label>
+    <input type="password" id="displayPassword" name="displayPassword">
+    <input type="submit" name="act" value="Display Source">
+    <input type="hidden" name="interface" value="4">
+
+</form>
+</body>
+</html>

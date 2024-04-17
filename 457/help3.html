@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Help</title>
+    <link href="help.css" rel="stylesheet">
+    <script src="setInputs.js"></script>
+</head>
+<body>
+<form method="post" action="return.php" class="form-button" onsubmit="return setHiddenInputs()">
+    <input type="submit" name="act" value="Back">
+    <input type="hidden" name="interface" value="4">
+
+    <input type="hidden" name="name" id="nameInput">
+    <input type="hidden" name="password" id="passwordInput">
+</form>
+
+<p></p>
+<p></p>
+<p> --HOW TO NAVIGATE LIST PAGE--</p>
+<p>
+    If admin user is logged in, all users may be listed when USERS is selected and LIST action is taken.
+</p>
+<p>
+    If admin user is NOT logged in, user may view their own account only.
+</p>
+
+<p> Any user may LIST all books.</p>
+
+  <p>  Keyword-matching is enabled for book search.
+</p>
+
+<p> BACK returns user to previous page.</p>
+
+<p> DISPLAY PASSWORD is the password required to view PHP source code.</p>
+
+<p> Press BACK to return to list page.</p>
+
+</body>
+</html>

@@ -2,9 +2,9 @@
 
 class Database
 {
-    private $user = "nicholas.s.snell@undcsmysql";
-    private $password = "****";
-    private $database = "nicholas_s_snell";
+    private $user = "root";
+    private $password = "root"; //modify to your password
+    private $database = "nicholas_s_snell"; //modify to your database name
     private $host = "localhost";
     public $conn;
 
